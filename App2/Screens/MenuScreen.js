@@ -37,12 +37,12 @@ export default function MenuScreen() {
                     <Text> Menu de practicas </Text>
                     <Button title="Pract:Tarjetas"                               onPress={ ()=>setScreen('tarjetas') }> </Button>
                     <Button title="Pract:SafeAreaView"                               onPress={ ()=>setScreen('safe') }> </Button>
-                    <Button title="Pract:Pressable"                              onPrees={ ()=>setScreen('pressable')}> </Button>
-                    <Button title="Pract:TextInput & Alert"                      onPrees={ ()=>setScreen('textinput')}> </Button>
-                    <Button title="Pract:FlatList & SectionList"                  onPrees={ ()=>setScreen('flatlist')}> </Button>
-                    <Button title="Pract:ImageBackgroung & SlapshScreen"             onPrees={ ()=>setScreen('image')}> </Button>
-                    <Button title="Pract:Modal & Bottom sheet"                       onPrees={ ()=>setScreen('modal')}> </Button>
-                    <Button title="Pract:ActivityIndicator, KeyboardAvoidingView" onPrees={ ()=>setScreen('activity')}> </Button>
+                    <Button title="Pract:Pressable"                              onPress={ ()=>setScreen('pressable')}> </Button>
+                    <Button title="Pract:TextInput & Alert"                      onPress={ ()=>setScreen('textinput')}> </Button>
+                    <Button title="Pract:FlatList & SectionList"                  onPress={ ()=>setScreen('flatlist')}> </Button>
+                    <Button title="Pract:ImageBackgroung & SlapshScreen"             onPress={ ()=>setScreen('image')}> </Button>
+                    <Button title="Pract:Modal & Bottom sheet"                       onPress={ ()=>setScreen('modal')}> </Button>
+                    <Button title="Pract:ActivityIndicator, KeyboardAvoidingView" onPress={ ()=>setScreen('activity')}> </Button>
 
                 </View>
 
@@ -53,7 +53,7 @@ export default function MenuScreen() {
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        blackgroundColor: '#fff',
+        backgroundColor: '#fff',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',

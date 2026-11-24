@@ -51,7 +51,7 @@ showsVerticalScrollIndicator={true}
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        blackgroundColor: '#ffffff',
+        backgroundColor: '#ffffff',
         padding: 20,
 
 

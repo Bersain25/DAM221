@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { SafeAreaView,View,Text,StyleSheet,Pressable,Modal,} from 'react-native';
-import {useLocalSearchParams,router} from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 
 export default function DetalleUsuarioScreen() {
+    const { id, nombre, edad } = useLocalSearchParams();
 
-    const {id,nombre,edad}=useLocalSearchParams();
+    const actualizarUsuario = () => {}
 
-    const actualizarUsuario=()=>{
-        router.push({
-            pathname:'/actualiza', params:{id:id,nombre:nombre,edad:edad}
-        })
-    };
+
+
+
 
 
    // Estado para mostrar u ocultar el modal

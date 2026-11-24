@@ -13,23 +13,16 @@ export default function ConsultaUsuariosScreen() {
   ];
 
   const renderTarjeta = ({ item }) => (
-
-    <Pressable onPress={()=>router.push({pathname:'/detalle', params:{id: item.id,nombre:item.nombre,edad:item.edad}})} 
-    >
+    <Pressable onPress={()=>router.push({pathname:'/detalle', params:{id:item.id,nombre:item.nombre,edad:item.edad}})}>
 
     <View style={styles.card}>
-
       <Text style={styles.nombre}>{item.nombre}</Text>
-
       <View style={styles.linea}></View>
-
       <Text style={styles.info}>
-        Edad: {item.edad} años
-      </Text>
-
+        Edad: {item.edad} años </Text>
     </View>
 
-    </Pressable>
+    </Pressable>  
   );
 
   return (

@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import iconSet from '@expo/vector-icons/build/Fontisto';
 import { SafeAreaView,View,Text, TextInput, Pressable, StyleSheet,} from 'react-native';
+import { useLocalSearchParams} from 'expo-router';
 
 
 
 export default function ActualizarUsuarioScreen() {
+
+    const params = useLocalSearchParams();
+
+    const[nombre, setNombre] = React.useState(params.nombre);
+    const[edad, setEdad] = React.useState(params.edad);
+    const actualizarUsuario = () => {}
 
 
 

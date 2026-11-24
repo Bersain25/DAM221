@@ -1,5 +1,5 @@
-import ActualizarUsuarioScreen from "./../screens/ActualizarUsuarioScreen";
+import ActualizarUsuarioScreen from "../screens/ActualizarUsuarioScreen";
 
 export default function actualiza() {
-    return <ActualizarUsuarioScreen/>
+    return <ActualizarUsuarioScreen/>;
 }
